@@ -31,7 +31,7 @@ with open(camera_path, "r") as f:
 
 
 # initialize server
-origins = ["https://viewer.dylanebert.com", "https://dylanebert-gaussian-viewer.hf.space"]
+origins = ["*"]
 
 app = FastAPI()
 app.add_middleware(
